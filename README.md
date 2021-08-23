@@ -6,4 +6,4 @@ You only need to run `npm i` and `tsc` and then it runs in browsers that support
 
 It probably makes sense to not only include `ej2-button` as node module but all of `ej2` and import what's needed. 
 
-I switched to node modules from remote imports via [jsnpm](https://jspm.org/) originally https://github.com/olifink/ef2-typescript-esm-starter/commit/e2377ad8507adf00c1a2802e570387a04615040d so that TypeScript completion works directly, which it doesn't using the remote imports.
+I switched to node modules from [remote imports](https://github.com/olifink/ef2-typescript-esm-starter/commit/e2377ad8507adf00c1a2802e570387a04615040d) via [jsnpm](https://jspm.org/) originally so that TypeScript completion works directly, which it doesn't using the remote imports.
