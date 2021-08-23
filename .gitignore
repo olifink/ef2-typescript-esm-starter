@@ -1,3 +1,4 @@
-_old/*
 .cache/*
+node_modules/*
 dist/*
+_old/*
